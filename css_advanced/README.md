@@ -2,8 +2,8 @@ The primary goal of this project is to leverage advanced CSS techniques to desig
 
 Here are the specific objectives:
 
-Develop a webpage using the provided HTML template.
-Apply CSS styling in line with the Figma design.
+Developing a webpage using the provided HTML template.
+Applying CSS styling in line with the Figma design.
 Ensure the webpage is fully responsive and optimized for mobile devices.
 Maintain clean, organized, and easily readable CSS code.
 Incorporate hover effects, a responsive navigation menu, and a well-structured hero section.
