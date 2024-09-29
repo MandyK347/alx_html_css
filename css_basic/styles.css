@@ -1,1 +1,48 @@
+/* styles.css */
 
+/* Set up the body to be a flex container with a column direction */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Make the body full height for better scrolling */
+}
+
+/* Set up the main section to be a flex container with a row direction */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allow main to take automatic height and width */
+}
+
+/* Set article to take up 2 parts of the available space */
+article {
+    flex: 2; /* ⅔ of the width */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Set aside to take up 1 part of the available space */
+aside {
+    flex: 1; /* ⅓ of the width */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Optional: You can add some basic styling for header and footer */
+header, footer {
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+}
+
+article, aside {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Optional: Adding some height to article and aside to see scrolling effect */
+article {
+    max-height: 70vh; /* Limit height for demonstration */
+}
+
+aside {
+    max-height: 70vh; /* Limit height for demonstration */
+}
