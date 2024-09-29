@@ -354,3 +354,32 @@ body{
         margin-bottom: 20px;
     }
 }
+
+/* FAQ Section */
+.faq{
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.faq h1{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.faq-block-upper, .faq-block-lower{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.faq-block1, .faq-block2, .faq-block3, .faq-block4{
+    width: 30%;
+    padding: 50px;
+    text-align: left;
+}
+
+.faq-block1 p, .faq-block2 p, .faq-block3 p, .faq-block4 p{
+    margin-top: 10px;
+    color: #071629;
+}
