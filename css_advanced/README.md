@@ -1,4 +1,4 @@
-The primary goal of this project is to leverage advanced CSS techniques to design a visually appealing and responsive webpage for SmileSchool. You'll receive design specifications through a Figma file, which should be adhered to closely. This project will enhance your foundational HTML skills by emphasizing the visual aspects of the webpage through CSS.
+The primary goal of this project is to leverage advanced CSS techniques to design a visually appealing and responsive webpage for SmileSchool. Received design specifications through a Figma file, which should be adhered to closely.
 
 Here are the specific objectives:
 
