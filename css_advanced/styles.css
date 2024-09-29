@@ -262,3 +262,95 @@ body{
     font-size: .8em;
     color: #c387e6;
 }
+
+/* Membership Section */
+.membership {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #071629; /* Dark purple background */
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.membership h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    color: #A073FF; /* Purple color for "Free" */
+}
+
+.membership-title .membership {
+    color: white; /* White color for "membership" */
+}
+
+/* Rest of your code remains the same */
+
+
+.membership-container {
+    display: flex;
+    justify-content: center; /* Center-align the blocks */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.membership-block {
+    background-color: #071629; /* Dark purple background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Add some rounding for better aesthetics */
+    flex-basis: 20%; /* Adjusted width for four blocks in one row */
+    min-width: 200px;
+    margin: 10px;
+}
+
+.membership-block h4 {
+    color: white; /* White headings */
+    font-weight: bold;
+    font-size: 1.2em; /* Increased size for better readability */
+    margin-bottom: 10px;
+}
+
+.membership-block p {
+    font-size: 1em; /* Adjusted for better readability */
+    color: #A0A0A0; /* Softer text color */
+}
+
+.icon {
+    font-size: 50px; /* Matches smiley icon size in the image */
+    margin-bottom: 20px;
+}
+
+/* Button Style */
+.register-btn {
+    display: block;
+    background-color: #A073FF; /* Purple button background */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin: 40px auto; /* Center the button and add margin */
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #8c5ed1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .membership-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membership-block {
+        width: 100%; /* Stack blocks on smaller screens */
+        margin-bottom: 20px;
+    }
+}
