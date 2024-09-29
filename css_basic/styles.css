@@ -18,6 +18,11 @@ main {
 article {
     flex: 2; /* ⅔ of the width */
     overflow-y: auto; /* Allow vertical scrolling */
+    background-color: white; /* White background for articles */
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px; /* Rounded corners */
 }
 
 /* Set aside to take up 1 part of the available space */
