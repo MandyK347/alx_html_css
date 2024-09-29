@@ -46,3 +46,18 @@ article {
 aside {
     max-height: 70vh; /* Limit height for demonstration */
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Keep stacking elements vertically on smaller screens */
+    }
+
+    main {
+        flex-direction: column; /* Stack article and aside vertically */
+    }
+
+    article, aside {
+        flex: none; /* Allow them to take full width */
+        width: 100%; /* Full width on small screens */
+    }
+}
